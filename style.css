@@ -1,0 +1,55 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+main{
+    flex: 1 0 auto;
+    
+}
+.centr-form{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.input-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px
+}
+
+.form-div{
+    width: 220px;
+    height: 25px;
+}
+
+.form-button{
+    width: 100%;
+    height: 35px;
+}
+
+input{
+    height: 25px;
+}
+
+.dark-back{
+    background-color: black;
+    color: aliceblue;
+}
+
+.light-back{
+    background-color: aliceblue;
+    color: black;
+}
+
+.nav-flex{
+    display: flex;
+    flex-direction: row;
+}
